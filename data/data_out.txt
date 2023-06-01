@@ -92,3 +92,9 @@ Name: Brody K. French| Address: Ap #953-3792 Aliquet Avenue| City: Sinaai-Waas
 Name: Minerva M. Benjamin| Address: 157-3924 Mauris Road| City: Itegem
 Name: Lawrence Y. Brewer| Address: P.O. Box 631, 2595 Nulla St.| City: St. Paul
 Name: Lucy F. Mitchell| Address: 3122 Velit. Street| City: Airdrie
+Name: Palmer A. Wolf| Address: | City: San Pedro de la Paz
+Name: Belle R. Hartman| Address: P.O. Box 561, 6827 Ornare St.| City: Grey County
+Name: Madeline Z. Chavez| Address: Ap #727-1474 Torquent Ave| City: Slough
+Name: Wynne H. Mendez| Address: P.O. Box 750, 9773 Rhoncus. Road| City: Matamoros
+Name: Fatima V. Meyer| Address: 945-8042 Nam Avenue| City: Graven Grez-Doiceau
+Name: Kuame L. Freeman| Address: P.O. Box 719, 2154 Suspendisse Rd.| City: Wimbledon

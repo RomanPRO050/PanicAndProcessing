@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	_ "fmt"
+	"fmt"
 	"io"
 	_ "log"
 	"os"
@@ -24,7 +24,7 @@ func main() {
 			typedString += string(symbol)
 			if symbol == '|' {
 				if typedString == "|" {
-					panic("parse error: empty field on string")
+					errorFunc()
 				}
 				k += 1
 				switch {
@@ -40,7 +40,7 @@ func main() {
 			}
 		}
 		if typedString == "" {
-			panic("parse error: empty field on string")
+			errorFunc()
 		}
 		modLine += typedString
 		strings.Split(modLine, "|")
@@ -53,4 +53,11 @@ func main() {
 
 	}
 
+}
+func errorFunc() {
+	defer func() {
+		panicErr := recover()
+		fmt.Println(panicErr)
+	}()
+	panic("parse error: empty field on string")
 }
